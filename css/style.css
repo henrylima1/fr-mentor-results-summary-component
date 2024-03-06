@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hanken Grotesk';
+}
+
+section#results {
+    background-color: blue;
+    width: 600px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: -3px 8px 15px -8px rgba(0,0,0,0.75);
+}
+
+section#grade {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+section#grade h1 {
+    margin-top: 30px;
+    color: hsl(241, 100%, 89%);
+}
+
+section#grade h2 {
+    color: white;
+}
+
+section#grade p {
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+
+div#tgrade {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+article#grades {
+    background-color: white;
+    width: 50%;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article#grades h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+article#grades ul{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+article#grades ul li {
+    padding: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+article#grades ul li#reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: rgba(255, 87, 87, 0.185);
+    height: 5px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+article#grades ul li#memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.185);
+    height: 5px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+article#grades ul li#verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.185);
+    height: 5px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+article#grades ul li#visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.185);
+    height: 5px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+article#grades button {
+    width: 70%;
+    background-color: #303B59;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}

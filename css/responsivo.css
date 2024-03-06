@@ -1,0 +1,21 @@
+@media (max-width: 400px) {
+    section#results {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    section#grade {
+        margin-top: -10%;
+        width: 100%;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: none;
+    }
+    article#grades {
+        width: 100%;
+        margin-top: 70px;
+        border-radius: 0px;
+    }
+    article#grades button {
+        margin-bottom: 30px;
+    }
+}
